@@ -6,8 +6,20 @@
         return false;    
 }
 
-int a = 7;
+int a = 4;
 if (CheckIfEven(a))
     Console.WriteLine(a + "is an even number");
 else
-    Console.WriteLine(a + "is an odd number");
+    Console.WriteLine(a + " is an odd number");
+
+a = -3;
+if (CheckIfEven(a))
+    Console.WriteLine(a + "is an even number");
+else
+    Console.WriteLine(a + " is an odd number");
+
+a = 7;
+if (CheckIfEven(a))
+    Console.WriteLine(a + "is an even number");
+else
+    Console.WriteLine(a + " is an odd number");
