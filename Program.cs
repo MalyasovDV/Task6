@@ -8,7 +8,7 @@
 
 int a = 4;
 if (CheckIfEven(a))
-    Console.WriteLine(a + "is an even number");
+    Console.WriteLine(a + " is an even number");
 else
     Console.WriteLine(a + " is an odd number");
 
